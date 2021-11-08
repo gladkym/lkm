@@ -1,0 +1,283 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap");
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  /*посмотреть*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.contain {
+  width: 1556px;
+  margin-left: auto;
+  /*посмотреть*/
+  margin-right: auto;
+  /*посмотреть*/
+}
+
+.top-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #efefef;
+  height: 54px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-1-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul.top-mnu-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ul.top-mnu-1 li {
+  margin-right: 54px;
+}
+
+ul.top-mnu-1 li a {
+  color: #2f3131;
+  font-size: 18px;
+}
+
+.user-link {
+  height: 26px;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 43px;
+  color: #2f3131;
+  font-size: 16px;
+  background: url(/img/user.svg) no-repeat left center;
+  padding-left: 43px;
+}
+
+.top-2 {
+  padding: 20px 0 16px 0;
+}
+
+.top-2-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+a.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a.logo span {
+  font-weight: 700;
+  color: #2f3131;
+  font-size: 16px;
+  margin-left: 43px;
+}
+
+.top-2-conts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /*посмотреть*/
+}
+
+.top-2-col {
+  text-align: center;
+  /*посмотреть*/
+  margin-left: 42px;
+}
+
+a.top-phone {
+  display: block;
+  /*посмотреть*/
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.top-phone-label {
+  color: #2f3131;
+  font-style: 14px;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #ffcc34;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  /*посмотреть*/
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 42px;
+  padding: 0 20px;
+  /*посмотреть*/
+  -webkit-box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  color: #2f3131;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: #FFB734;
+}
+
+.top-2-btn {
+  margin-left: 64px;
+  padding: 0 57px;
+  /*посмотреть*/
+}
+
+.top-3 {
+  background-color: #00728F;
+}
+
+ul.top-mnu-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+ul.top-mnu-2 li a {
+  height: 57px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  /*посмотреть*/
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 60px;
+  /*посмотреть*/
+}
+
+ul.top-mnu-2 li a:hover {
+  text-decoration: none;
+  background-color: #0B5366;
+}
+
+.cta {
+  height: 567px;
+  background: url(/img/banner.jpg) no-repeat top center;
+  padding-top: 106px;
+}
+
+.cta-contain {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cta-left {
+  max-width: 350px;
+}
+
+.cta-txt-1 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.35;
+  color: #2F3131;
+  margin-bottom: 35px;
+}
+
+.cta-txt-2 {
+  font-size: 18px;
+  line-height: 1.1;
+  color: #000000;
+  max-width: 225px;
+}
+/*# sourceMappingURL=main.css.map */
